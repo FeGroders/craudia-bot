@@ -1,2 +1,2 @@
-# jussara-bot
+# craudia-bot
 chatbot under development
