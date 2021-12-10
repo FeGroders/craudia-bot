@@ -1,5 +1,5 @@
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from chatterbot.trainers import UbuntuCorpusTrainer
+from chatterbot.conversation import Statement
 from chatterbot import ChatBot
 
 bot = ChatBot(
@@ -10,14 +10,13 @@ bot = ChatBot(
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("chatterbot.corpus.portuguese")
 
-# Train using the Ubuntu Dialog Corpus
-# trainer = UbuntuCorpusTrainer(bot)
-# trainer.train()
-
 while True:
     pergunta = input("Usuário: ")
     resposta = bot.get_response(pergunta)
     if float(resposta.confidence) > 0.5:
         print('Craudia: ', resposta)
     else:
-        print('Craudia: Ainda não sei responder esta pergunta')
+        print('Craudia: Ainda não sei responder esta pergunta.')
+        print('Craudia: Você pode me ajudar a ficar mais sábia, basta me dizer uma resposta coerente')
+        correct_response = Statement(text=input())
+        bot.learn_response(correct_response, pergunta)
