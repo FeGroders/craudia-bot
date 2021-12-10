@@ -3,7 +3,7 @@ from chatterbot.conversation import Statement
 
 # Create a new instance of a ChatBot
 bot = ChatBot(
-    'Feedback Learning Bot',
+    'Craudia',
     storage_adapter='chatterbot.storage.SQLStorageAdapter'
 )
 
@@ -35,6 +35,8 @@ while True:
             print('Por favor digite uma resposta coerente')
             correct_response = Statement(text=input())
             bot.learn_response(correct_response, input_statement)
+            print(correct_response)
+            print(input_statement)
             print('Resposta adicionada a Jussara!')
         else: 
             print('Obrigada por me ajudar a me aprimorar!')    
