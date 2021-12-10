@@ -1,5 +1,5 @@
 <h1 align="center">
-    Craudia Bot
+    Craudia 🤖
 </h1>
 
 <h4 align="center">
@@ -24,7 +24,7 @@
   <a href="https://github.com/FeGroders/craudia-bot#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## ?? Technologies
+## 🚀 Technologies
 
 This project was developed with the following technologies:
 
@@ -32,7 +32,7 @@ This project was developed with the following technologies:
 -  [ChatterBot](https://chatterbot.readthedocs.io/en/stable/)
 -  [VS Code][vc]
 
-## ?? How To Use
+## 📘 How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 3.8.7][nodejs] installed on your computer. From your command line:
 
@@ -50,21 +50,20 @@ $ python main.py
 ```
 
 
-## ?? License
+## 📄 License
 This project is under the MIT license. See the [LICENSE](https://github.com/fegroders/diz-um-filme/blob/master/LICENSE) for more information.
 
 
 
----
-### Author
----
+
+## 💻 Author
 
 <a href="https://github.com/FeGroders">
  <img style="border-radius: 50%" src="https://avatars3.githubusercontent.com/u/62064189?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Fernando Groders</b></sub></a>
  
-Made by Fernando Groders ???? Contact-me! <br/>
+Made by Fernando Groders 👋🏽 Contact-me! <br/>
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-%23E4405F?style=flat-square&labelColor=%23E4405F&logo=instagram&logoColor=white&link=https://twitter.com/tgmarinho)](https://instagram.com/fegroders) 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/fernandogroders/) 
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:fernandogroder@gmail.com)
