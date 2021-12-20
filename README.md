@@ -38,13 +38,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [P
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/FeGroders/diz-um-filme.git
+$ git clone https://github.com/FeGroders/craudia-bot.git
 
 # Go into the repository
-$ cd diz-um-filme
+$ cd craudia-bot
 
 # Install dependencies
-$ pip install Tweepy
+$ pip install -r requirements.txt
 
 $ python main.py 
 ```
