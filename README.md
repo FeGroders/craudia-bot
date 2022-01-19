@@ -34,7 +34,7 @@ This project was developed with the following technologies:
 
 ## 📘 How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 3.8.7][nodejs] installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 3.8.7][py] installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
